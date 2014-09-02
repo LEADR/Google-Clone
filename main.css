@@ -1,0 +1,148 @@
+
+
+/*
+  ==================================================
+  Box Model Outline
+  ==================================================
+
+
+*,
+*:before,
+*:after {
+  border: 1px solid orange;
+}
+
+/*
+  ==================================================
+  Custom Styles
+  ==================================================
+*/
+
+body {
+  color: #888;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*
+  ==================================================
+  Grid
+  ==================================================
+
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+  ==================================================
+  Typography
+  ==================================================
+*/
+
+
+
+/*
+  ==================================================
+  Links
+  ==================================================
+*/
+
+a {
+  cursor:pointer;
+  text-decoration:none;
+}
+
+a:visited {
+  text-decoration:none;
+}
+
+
+/*
+  ==================================================
+  Navigation
+  ==================================================
+*/
+
+.nav {
+  text-align:right;
+}
+
+.nav li {
+  display:inline-block;
+}
+
+#sign-in {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+}
+
+/*
+  ==================================================
+  Search Bar
+  ==================================================
+*/
+
+#search-bar {
+  background-image: url("images/microphone.png") 0 0 no-repeat;
+}
+
+#search-bar input {
+  display: block;
+  margin:auto;
+}
+
+.search-btn {
+  padding: 5px 10px 5px 10px;
+  background-color: gray;
+  color: white;
+  display: inline-block;
+}
+
+#buttons {
+  display: inline-block;
+  margin: auto;
+}
+
+
+
+/*
+  ==================================================
+  Logo
+  ==================================================
+*/
+
+#logo img {
+  display:block;
+  margin: auto;
+}
+
+/*
+  ==================================================
+  Footer
+  ==================================================
+*/
+
+.footer {
+  position: fixed;
+  left: 100;
+  bottom: 10px;
+  width: 100%;
+}
+
+.footer ul {
+  padding: 0;
+}
+
+.footer ul,
+.footer ul li {
+  display:inline-block;
+}
+
+#settings {
+  position: relative;
+}
