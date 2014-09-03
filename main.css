@@ -74,7 +74,7 @@ body {
   ==================================================
   Grid
   ==================================================
-
+*/
 
 *,
 *:before,
@@ -140,7 +140,12 @@ a:visited {
 
 #search-bar input {
   display: block;
-  margin:auto;
+  margin: 10px auto;
+}
+
+#buttons {
+  margin: auto;
+  text-align: center;
 }
 
 .search-btn {
@@ -150,12 +155,6 @@ a:visited {
   display: inline-block;
 }
 
-#buttons {
-  display: inline-block;
-  margin: auto;
-}
-
-
 
 /*
   ==================================================
@@ -163,9 +162,13 @@ a:visited {
   ==================================================
 */
 
-#logo img {
-  display:block;
-  margin: auto;
+#logo {
+  display: block;
+  background: url("images/google-logo.png") 50% 0 no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100px;
+  margin-top: 130px;
 }
 
 /*
@@ -176,9 +179,10 @@ a:visited {
 
 .footer {
   position: fixed;
-  left: 100;
-  bottom: 10px;
-  width: 100%;
+  bottom: 0;
+  padding: 10px 10px;
+  display: inline-block;
+  background-color: gray;
 }
 
 .footer ul {
@@ -190,6 +194,32 @@ a:visited {
   display:inline-block;
 }
 
-#settings {
-  position: relative;
+#footer1 {
+  width: 80%;
+  left:-0.2
+
+}
+
+#footer2 {
+  diplay:inline-block;
+  right: 0;
+  width: 20%;
+  text-align: right;
+}
+
+/*
+  ==================================================
+  TESTING
+  ==================================================
+*/
+
+div#test1 {
+  width:200px;
+  height:20px;
+  background-color: red;
+  margin: auto;
+}
+
+div#test2 {
+  text-align: center;
 }
